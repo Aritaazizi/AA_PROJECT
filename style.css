@@ -1,0 +1,773 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+.shiriti-kontaktues {
+    display: block;
+    background-color: rgb(14, 43, 76);
+    height: 50px;
+    position: relative;
+}
+
+.mediat-sociale {
+    position: absolute;
+    left: 150px;
+}
+
+.mediat-sociale li {
+    float: left;
+    padding: 15px;
+    display: inline-block;
+    list-style: none;
+}
+
+.mediat-sociale li a {
+    color: white;
+}
+
+.mediat-sociale li a:hover {
+    color: rgb(159, 113, 77);
+    transition: 0.5s ease;
+}
+
+.menyre-kontaktuese {
+    list-style: none;
+    position: absolute;
+    top: 7px;
+    right: 180px;
+}
+
+.menyre-kontaktuese li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.menyre-kontaktuese li a {
+    text-decoration: none;
+    color: white;
+}
+
+.shiriti-kontaktues .butoni {
+    position: absolute;
+    top: 12px;
+    right: 100px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border-style: none;
+    font-family: Ariel;
+    color: black;
+    background-color: antiquewhite;
+}
+
+.shiriti-kontaktues .butoni:hover {
+    transition: 0.3s ease;
+    background-color: rgb(159, 113, 77);
+    color: white;
+    cursor: pointer;
+}
+
+.navigimi {
+    height: 100px;
+}
+
+.llogo {
+    position: absolute;
+    left: 100px;
+}
+
+.menyte {
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 20px;
+}
+
+.menyte li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menyte li a {
+    text-decoration: none;
+    color: rgb(98, 64, 37);
+}
+
+.menyte li a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    background-color: #dfcfbe;
+    padding: 10px;
+}
+
+.ballina {
+    display: block;
+    background-image: url(images/ballina.jpg);
+    opacity: 0.9;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulli1 {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    opacity: 0.5;
+    left: 50%;
+    top: 120px;
+    transform: translate(-50%, -50%);
+}
+
+.titulli2 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: rgb(14, 43, 76);
+    padding: 10px 25px;
+    opacity: 0.7;
+    border-radius: 30px;
+    left: 50%;
+    top: 180px;
+    transform: translate(-50%, -50%);
+}
+
+.ballina p {
+    position: absolute;
+    left: 50%;
+    top: 240px;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 1px 1px 5px black;
+}
+
+.ballina button {
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(14, 43, 76);
+    color: white;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.ballina button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.informata {
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    background-color: rgb(14, 43, 76);
+    height: 150px;
+    width: 25%;
+    position: relative;
+    bottom: 75px;
+}
+
+.info h3 {
+    padding: 20px;
+    color: white;
+    font-weight: 50;
+}
+
+.info p {
+    color: white;
+    padding: 0px 20px;
+}
+
+.rrethnesh {
+    width: 900px;
+    height: auto;
+    position: relative;
+    left: 200px;
+}
+
+.rrethnesh h3 {
+    position: relative;
+    top: -20px;
+    color: #636363;
+}
+
+.rrethnesh h2 {
+    position: relative;
+    top: -10px;
+    color: rgb(14, 43, 76);
+}
+
+.rrethnesh h4 {
+    color: dimgrey;
+    width: 500px;
+    padding-top: 10px;
+}
+
+.rrethnesh p {
+    padding: 30px 0px;
+    width: 60%;
+    color: #636363;
+}
+
+.rrethnesh img {
+    float: right;
+    position: relative;
+    bottom: 220px;
+    left: 130px;
+    width: 300px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.rrethnesh button {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid deepskyblue;
+    color: deepskyblue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.rrethnesh button:hover {
+    color: white;
+    background-color: deepskyblue;
+}
+
+.sherbimet {
+    background-color: #fafafa;
+    height: 600px;
+    width: 100%;
+    margin-top: 70px;
+    position: relative;
+}
+
+.sherbimet h1 {
+    position: relative;
+    left: 720px;
+    top: 30px;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 100;
+    overflow-x: hidden;
+}
+
+.pershkrim {
+    position: relative;
+    top: 50px;
+    left: 600px;
+    overflow-x: hidden;
+    color: dimgrey;
+}
+
+
+.disa-sherbime {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 100px);
+    column-gap: 150px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 400px;
+    right: 35px;
+}
+
+.div-sherbimi {
+    width: 250px;
+    height: auto;
+
+}
+
+.div-sherbimi i {
+    font-size: 30px;
+    float: left;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    color: rgb(14, 43, 76);
+}
+
+.div-sherbimi h4 {
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+}
+
+.div-sherbimi p {
+    position: relative;
+    color: #636363;
+    float: left;
+    left: 55px;
+}
+
+.pjesa4 {
+    height: 600px;
+    width: 100%;
+}
+
+.pjesa4 h1 {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.dyqanet {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 20px;
+    top: 100px;
+}
+
+.dyqani {
+    height: 370px;
+    width: 200px;
+    background-color: #fafafa;
+}
+
+.dyqani img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.dyqani h4 {
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.dyqani p {
+    padding: 0px 10px;
+    font-size: 15px;
+    color: dimgrey;
+}
+
+.dyqani a {
+    position: relative;
+    padding: 5px 8px;
+    top: 10px;
+    background-color: rgb(14, 43, 76);
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.dyqani button {
+    position: relative;
+    top: 10px;
+    border-style: none;
+    background-color: rgb(14, 43, 76);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dyqani a:hover {
+    color: rgb(14, 43, 76);
+    background-color: white;
+}
+
+.dyqani button:hover {
+    cursor: pointer;
+    background-color: #9c582f;
+}
+
+.statistika {
+    background-image: url(images/12.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mbivendosja {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(14, 43, 76);
+    opacity: 0.8;
+    position: absolute;
+
+}
+
+.divi {
+    position: relative;
+    padding: 50px 80px;
+    color: white;
+    text-align: center;
+}
+
+.divi i {
+    font-size: 26px;
+}
+
+.divi h1 {
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+.divi h3 {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.dhoma-suita {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dhoma-suita h1 {
+    position: relative;
+    left: 650px;
+    top: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+.llojet {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 100px);
+    column-gap: 20px;
+    grid-row-gap: 150px;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+.dhoma {
+    width: 250px;
+    height: auto;
+}
+
+.dhoma img {
+    position: relative;
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    bottom: 100px;
+}
+
+.dhoma h3 {
+    position: relative;
+    bottom: 95px;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 170px;
+    color: rgb(14, 43, 76);
+}
+
+.dhoma p {
+    position: relative;
+    bottom: 85px;
+    width: 170px;
+    font-size: 14px;
+    color: dimgrey;
+}
+
+.dhoma a {
+    text-decoration: none;
+    color: skyblue;
+    position: relative;
+    bottom: 75px;
+    font-size: 14px;
+}
+
+.dhoma a:hover {
+    font-size: 16px;
+}
+
+.pjesa7 {
+    width: 100%;
+    height: 600px;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.pjesa7 h1 {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.ofertat {
+    display: flex;
+    position: relative;
+    column-gap: 20px;
+    justify-content: center;
+    top: 100px;
+}
+
+.oferta {
+    width: 200px;
+    height: 350px;
+    border: 5px outset #f0f0f0;
+}
+
+.oferta i {
+    position: relative;
+    top: 70px;
+    left: 65px;
+    font-size: 32px;
+    color: white;
+    background-color: rgb(14, 43, 76);
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+.oferta h3 {
+    position: relative;
+    top: 120px;
+    width: 170px;
+    text-align: center;
+    color: rgb(14, 43, 76);
+    padding: 0px 15px;
+
+}
+
+.oferta p {
+    position: relative;
+    top: 130px;
+    padding: 10px;
+    color: dimgrey;
+}
+
+.oferta button {
+    position: relative;
+    top: 140px;
+    left: 50px;
+    padding: 8px;
+    border-style: none;
+    background-color: rgb(14, 43, 76);
+    color: white;
+    border-radius: 5px;
+}
+
+.oferta button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.galeri-komente {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.overlay1 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+}
+
+.ikona i {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-size: 26px;
+    color: rgb(98, 64, 37);
+}
+
+.ikona h2 {
+    position: relative;
+    top: 75px;
+    left: 135px;
+}
+
+.galeria {
+    position: relative;
+    left: 100px;
+    top: 100px;
+    float: left;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 2px;
+}
+
+
+.galeria img {
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.galeria img:hover {
+    opacity: 0.6;
+}
+
+.komentet {
+    float: right;
+    position: relative;
+    width: 45%;
+    height: auto;
+}
+
+.komentet i {
+    position: relative;
+    top: 50px;
+    font-size: 26px;
+    color: rgb(98, 64, 37);
+
+}
+
+.komentet h2 {
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.komenti {
+    background-image: url(images/wheat.jpg);
+    position: relative;
+    top: 45px;
+    width: 450px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.komenti p {
+    padding: 30px 50px;
+    line-height: 1.5;
+    font-style: italic;
+    position: relative;
+    font-weight: bold;
+}
+
+.pjesa9 {
+    height: 500px;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.foto {
+    float: left;
+    width: 40%;
+}
+
+.foto img {
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.rezervo {
+    width: 60%;
+    height: 500px;
+}
+
+.form-input {
+    margin-bottom: 30px;
+}
+
+input {
+    width: 200px;
+    height: 16px;
+    padding: 10px;
+    border-style: none;
+}
+
+select {
+    width: 220px;
+    height: 37px;
+    padding: 10px;
+    border-style: none;
+}
+
+.rreshti {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    column-gap: 40px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+textarea {
+    width: 440px;
+    height: 100px;
+    padding: 10px;
+    position: relative;
+    left: 680px;
+    top: 60px;
+    resize: none;
+    border-style: none;
+}
+
+.rezervo button {
+    padding: 10px;
+    background-color: rgb(14, 43, 76);
+    color: white;
+    position: relative;
+    float: right;
+    top: 40px;
+    left: -110px;
+    border-style: none;
+}
+
+.rezervo h2 {
+    position: relative;
+    left: 60px;
+    top: 60px;
+    color: rgb(14, 43, 76);
+}
+
+.footeri {
+    height: 50px;
+    background-color: rgb(14, 43, 76);
+}
+
+.footeri p {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-size: 13px;
+}
